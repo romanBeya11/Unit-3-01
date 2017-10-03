@@ -1,0 +1,90 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{62, 18}, {343, 67}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "description_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "10FC902F-DF03-4039-8F43-6181B6B32C38",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter a number between 1 & 6",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{143, 110}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "guess_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "C6D592A0-31BA-4B5E-A722-A64D25D93FBE",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{183, 164}, {101, 56}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_number_of_students_touch_up_inside",
+          "alpha" : 1,
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "B2FA4EF3-7447-4EC3-A71B-33B36943FEA0",
+          "class" : "Button",
+          "font_bold" : true,
+          "name" : "check_button",
+          "font_size" : 20
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{62, 237}, {343, 77}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "output_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "BCB8E6C5-2087-4437-904A-194D5C8057DE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
